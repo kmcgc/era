@@ -1,4 +1,8 @@
 mysqladmin -u root -p create spring_boot
 mysql -u root -p spring_boot < spring-boot.sql
 mvn spring-boot:run
-http://localhost:8080/
+http://localhost:8080/boot/login
+
+user:8446666@qq.com
+pass:123456
+注：有时会出错，不能登录。
