@@ -1,0 +1,4 @@
+mysqladmin -u root -p create spring_boot
+mysql -u root -p spring_boot < spring-boot.sql
+mvn spring-boot:run
+http://localhost:8080/
