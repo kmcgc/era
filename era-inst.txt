@@ -1,3 +1,4 @@
+sudo apt-get install redis redis-server
 mysqladmin -u root -p create spring_boot
 mysql -u root -p spring_boot < spring-boot.sql
 mvn spring-boot:run
